@@ -1,0 +1,39 @@
+name: ml-injector-tuning-3.8env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - tensorflow >=2.4.1
+  - keras >=2.4.3
+  - pytorch
+  - gpytorch
+  - botorch >=0.4.0
+  - xopt
+  - numdifftools
+  - pandas>1.2.4
+  - python==3.8.8
+  - mkl # necessary with tensorflow and scikitlearn
+  - scikit-learn ==0.23.2
+  - numpy >=1.20
+  - jupyter
+  - pytest =6.2.1
+  - pyro-ppl 
+  - jedi =0.17.2
+  - dm-tree =0.1.5
+  - tensorflow-probability =0.12.1
+  - pystan =2.19.1.1
+  - pyepics
+  - pip
+  - deap
+  - pyyaml
+  - ipywidgets
+  - tqdm
+  - mpi4py
+  - dask
+  - jupyterlab>=3
+  - matplotlib
+  - pygments
+  - mkdocs
+  - mkdocstrings
+  - mkdocs-material
+  - mkdocs-jupyter
